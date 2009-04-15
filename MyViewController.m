@@ -16,7 +16,22 @@
 @synthesize string;
 
 - (IBAction)changeGreeting:(id)sender {
+    self.string = textField.text;
     
+    NSString *nameString = string;
+    if ([nameString length] == 0) {
+        nameString = @"World";
+    }
+    NSString *greeting = [[NSString alloc] initWithFormat:@"Hello, %@!", nameString];
+    label.text = greeting;
+    [greeting release];
+}
+
+- (BOOL)textFieldShouldReturn:(UITextField *)theTextField {
+    if (theTextField == textField) {
+        [textField resignFirstResponder];
+    }
+    return YES;
 }
 
 /*
@@ -57,6 +72,9 @@
 
 
 - (void)dealloc {
+    [textField dealloc];
+    [label dealloc];
+    [string dealloc];
     [super dealloc];
 }
 
