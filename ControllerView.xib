@@ -36,7 +36,7 @@
 				<int key="NSvFlags">292</int>
 				<object class="NSMutableArray" key="NSSubviews">
 					<bool key="EncodedWithXMLCoder">YES</bool>
-					<object class="IBUITextField" id="168343126">
+					<object class="IBUITextField" id="440340070">
 						<reference key="NSNextResponder" ref="191373211"/>
 						<int key="NSvFlags">292</int>
 						<string key="NSFrame">{{20, 42}, {280, 31}}</string>
@@ -64,7 +64,7 @@
 							<int key="IBUIReturnKeyType">9</int>
 						</object>
 					</object>
-					<object class="IBUILabel" id="570907644">
+					<object class="IBUILabel" id="327759480">
 						<reference key="NSNextResponder" ref="191373211"/>
 						<int key="NSvFlags">292</int>
 						<string key="NSFrame">{{20, 153}, {280, 21}}</string>
@@ -82,7 +82,7 @@
 						<float key="IBUIMinimumFontSize">1.000000e+01</float>
 						<int key="IBUITextAlignment">1</int>
 					</object>
-					<object class="IBUIButton" id="143303167">
+					<object class="IBUIButton" id="550099636">
 						<reference key="NSNextResponder" ref="191373211"/>
 						<int key="NSvFlags">292</int>
 						<string key="NSFrame">{{124, 238}, {72, 37}}</string>
@@ -111,7 +111,7 @@
 						</object>
 					</object>
 				</object>
-				<string key="NSFrameSize">{320, 480}</string>
+				<string key="NSFrameSize">{320, 431}</string>
 				<reference key="NSSuperview"/>
 				<object class="NSColor" key="IBUIBackgroundColor">
 					<int key="NSColorSpace">1</int>
@@ -134,7 +134,7 @@
 					<object class="IBCocoaTouchOutletConnection" key="connection">
 						<string key="label">textField</string>
 						<reference key="source" ref="372490531"/>
-						<reference key="destination" ref="168343126"/>
+						<reference key="destination" ref="440340070"/>
 					</object>
 					<int key="connectionID">7</int>
 				</object>
@@ -142,14 +142,14 @@
 					<object class="IBCocoaTouchOutletConnection" key="connection">
 						<string key="label">label</string>
 						<reference key="source" ref="372490531"/>
-						<reference key="destination" ref="570907644"/>
+						<reference key="destination" ref="327759480"/>
 					</object>
 					<int key="connectionID">8</int>
 				</object>
 				<object class="IBConnectionRecord">
 					<object class="IBCocoaTouchEventConnection" key="connection">
 						<string key="label">changeGreeting:</string>
-						<reference key="source" ref="143303167"/>
+						<reference key="source" ref="550099636"/>
 						<reference key="destination" ref="372490531"/>
 						<int key="IBEventType">7</int>
 					</object>
@@ -158,7 +158,7 @@
 				<object class="IBConnectionRecord">
 					<object class="IBCocoaTouchOutletConnection" key="connection">
 						<string key="label">delegate</string>
-						<reference key="source" ref="168343126"/>
+						<reference key="source" ref="440340070"/>
 						<reference key="destination" ref="372490531"/>
 					</object>
 					<int key="connectionID">11</int>
@@ -180,9 +180,9 @@
 						<reference key="object" ref="191373211"/>
 						<object class="NSMutableArray" key="children">
 							<bool key="EncodedWithXMLCoder">YES</bool>
-							<reference ref="168343126"/>
-							<reference ref="143303167"/>
-							<reference ref="570907644"/>
+							<reference ref="440340070"/>
+							<reference ref="550099636"/>
+							<reference ref="327759480"/>
 						</object>
 						<reference key="parent" ref="360949347"/>
 					</object>
@@ -199,17 +199,17 @@
 					</object>
 					<object class="IBObjectRecord">
 						<int key="objectID">4</int>
-						<reference key="object" ref="168343126"/>
+						<reference key="object" ref="440340070"/>
 						<reference key="parent" ref="191373211"/>
 					</object>
 					<object class="IBObjectRecord">
 						<int key="objectID">5</int>
-						<reference key="object" ref="570907644"/>
+						<reference key="object" ref="327759480"/>
 						<reference key="parent" ref="191373211"/>
 					</object>
 					<object class="IBObjectRecord">
 						<int key="objectID">6</int>
-						<reference key="object" ref="143303167"/>
+						<reference key="object" ref="550099636"/>
 						<reference key="parent" ref="191373211"/>
 					</object>
 				</object>
@@ -230,7 +230,7 @@
 					<bool key="EncodedWithXMLCoder">YES</bool>
 					<string>MyViewController</string>
 					<string>UIResponder</string>
-					<string>{{977, 513}, {320, 480}}</string>
+					<string>{{977, 562}, {320, 431}}</string>
 					<string>com.apple.InterfaceBuilder.IBCocoaTouchPlugin</string>
 					<string>com.apple.InterfaceBuilder.IBCocoaTouchPlugin</string>
 					<string>com.apple.InterfaceBuilder.IBCocoaTouchPlugin</string>
